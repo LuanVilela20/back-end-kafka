@@ -30,3 +30,8 @@ COPY . /app
 RUN gem install bundler
 
 RUN bundle install
+
+EXPOSE 3000
+
+CMD ["/usr/bin/bash"]
+
